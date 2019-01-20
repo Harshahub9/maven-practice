@@ -247,4 +247,4 @@ Here’s the completed `pom.xml` file:
 
 ### Run project
 ---
-**java -cp target/hello-world-maven-0.1.0.jar hello.HelloWorld**
+**java -jar "jarfile"
