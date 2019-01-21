@@ -10,7 +10,6 @@ You’ll create an application that provides the time of day and then build it w
 + Install Maven
 
 ## Install Maven.
-+ [Install Maven on Windows](http://www.mkyong.com/maven/how-to-install-maven-in-windows/)
 + [Install Maven on Ubuntu](http://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/)
 + [Install Maven on Mac OSX](http://www.mkyong.com/maven/install-maven-on-mac-osx/)
 
@@ -247,4 +246,8 @@ Here’s the completed `pom.xml` file:
 
 ### Run project
 ---
-**java -jar "jarfile"
+```$ ./start_maven.sh``` ( to install mvn dependencies and creates package )
+
+```$ ./create_image.sh```( creates Docker image )
+
+```$ ./start_container.sh```( runs Docker Container )
